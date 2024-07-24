@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: url('stopwatch.jpg');
+  background-size: cover;
+  display: flex;
+  padding: 20px;
+  height: 100vh;
+}
+  
+.stopwatch {
+  max-width: 400px;
+  margin: 0 auto;
+}
+  
+
+
+#display {
+  font-size: 3em;
+}
+  
+button {
+  font-size: 1em;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+  
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+  
+li {
+  margin-bottom: 5px;
+}
+  
